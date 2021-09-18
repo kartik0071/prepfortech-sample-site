@@ -1,279 +1,280 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/3158aa305f.js" crossorigin="anonymous"></script>
+
+    <title>airbnb</title>
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Pratik Singhal</h1>
-            <h2>Software Developer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
+    <nav class="navbar navbar-light bg-light"
+        style="padding-top: 1.5rem;padding-bottom: 1.5rem;box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px 0px;">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+            <div class="logo">
+                <img src="logo.png" alt="" class="logoicon">
+            </div>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Start your search">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+            <div class="host">
+                <div class="hosttxt">
+                    <p style="margin-bottom: 0;">Become a host</p>
                 </div>
-                <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
+                <div class="hosticon">
+                    <i class="bi bi-globe2"></i>
+                </div>
+                <div class="hostnav">
+                    <button class="hostbutton">
+                        <span><i class="bi bi-list"></i></span>
+                        <span><i class="bi bi-person-circle"></i></span>
+                    </button>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End #about -->
+    </nav>
+    <div class="container" style="padding-top: 2%;">
+        <div class="heading">
+            <p style="font-size: 26px;font-weight: 600;">Himalayan Woodpecker - A Truly Himalayan Stay</p>
+        </div>
+        <div class="box">
+            <div class="text" style="font-size:14px;">
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+                <i class="bi bi-star-fill starred"></i> <b>5.0</b> &#8226 <u style="font-weight: 600;">71 reviews</u>
+                <span>&#8226</span>
+                <span>Superhost</span>
+                <span>&#8226</span>
+                <span><u style="font-weight: 600;"> Vashist, Himachal Pradesh, India</u></span>
+
             </div>
+            <div class="share">
+                <div class="button1">
+                    <i class="bi bi-upload"></i><u> share</u>
+                </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+                <div class="button1">
+                    <i class="bi bi-heart"></i> <u> save</u>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- End #experience -->
+        <div class="gallery">
+            <div class="images">
+                <img src="https://a0.muscache.com/im/pictures/6dc21fa1-df07-4d7d-ab47-811cf1ec535d.jpg?im_w=1200" alt=""
+                    class="img1">
+            </div>
+            <div class="images">
+                <img src="https://a0.muscache.com/im/pictures/2ca8d4e7-b846-461e-b7fb-a3eda00babc8.jpg?im_w=720" alt=""
+                    class="img1">
+            </div>
+            <div class="images">
+                <img src="https://a0.muscache.com/im/pictures/f40401dc-6377-4298-b11a-6c848f3ac2ae.jpg?im_w=720" alt=""
+                    class="img1">
+            </div>
+            <div class="images">
+                <img src="https://a0.muscache.com/im/pictures/02cc68b2-60b4-4903-ac67-c835b00c6de0.jpg?im_w=720" alt=""
+                    class="img1">
+            </div>
+            <div class="images">
+                <img src="https://a0.muscache.com/im/pictures/a3782860-89d5-4c65-bd51-aa90cea7c8e6.jpg?im_w=720" alt=""
+                    class="img1">
+                <button class="button2"><i class="bi bi-grid-3x3-gap-fill"></i> Show all photos</button>
+            </div>
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
         </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
+        <div class="main">
+            <div class="intro">
+                <div class="mainheading">
+                    <div class="box1">
+                        <p style="font-size: 22px;font-weight: 600;">Farm stay hosted by Rajender</p
+                            style="font-size: 22px;font-weight: 600;">
+                        <p>3 guests · 1 bedroom · 1 bed · 1 bathroom</p>
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+
+                    <div class="badge">
+
+                        <img src="https://a0.muscache.com/im/pictures/user/77032ff8-b7e5-4f9c-b327-33fcfca1bf46.jpg?im_w=240"
+                            class="badgeimg">
+                        <img src="https://iconape.com/wp-content/files/oi/360786/png/airbnb-superhost-logo.png"
+                            class="superhost">
+                    </div>
+
+                </div>
+                <hr>
+                <div class="box2">
+                    <div class="iconbox">
+                        <img src="home.png" class="icon">
+                    </div>
+                    <div class="text2">
+                        <h6 style="font-weight: 600;">Entire home</h6>
+                        <p style="font-size:14px;color: rgb(113, 113, 113);">You’ll have the accommodation on the farm
+                            to yourself.</p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="iconbox">
+                        <img src="star.png" class="icon">
+                    </div>
+                    <div class="text2">
+                        <h6 style="font-weight: 600;">Enhanced Clean</h6>
+                        <p style="font-size:14px;color: rgb(113, 113, 113);">This host has committed to Airbnb's 5-step
+                            enhanced cleaning
+                            process.<u><b> Show more</b></u>
                         </p>
-                        <a href="#">View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
+                <div class="box2">
+                    <div class="iconbox">
+                        <img src="door.png" class="icon">
+                    </div>
+                    <div class="text2">
+                        <h6 style="font-weight: 600;">Self check-in</h6>
+                        <p style="font-size:14px;color: rgb(113, 113, 113);">You can check in with the doorperson.</p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="iconbox">
+                        <img src="home.png" class="icon">
+                    </div>
+                    <div class="text2">
+                        <h6 style="font-weight: 600;">Rajender is a Superhost</h6>
+                        <p style="font-size:14px;color: rgb(113, 113, 113);">Superhosts are experienced, highly rated
+                            hosts who are committed to
+                            providing great stays for
+                            their guests.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="para">
+                    <p style="color: rgb(34, 34,34 );">A hilltop house located in apple orchards with 2 dedicated guest
+                        rooms in which 1 rooms is attach
+                        with kitchenette & hygienic washrooms & 1 room is good size bedroom. Memorizing mountain view,
+                        tranquil location, cow milk & peaceful surroundings are something our domain. Our house is
+                        equipped with all the basic amenities & most suitable for peace-seeker in Himalayas & especially
+                        for book lover, meditation practitioner & birders...</p>
+                    <span style="font-weight: 600;"><u>Show more></u></sppan>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
+                <hr>
+                <div class="sleep">
+                    <p style="font-size: 22px;font-weight: 600;">Where you'll sleep</p>
+                    <img src="https://a0.muscache.com/im/pictures/4b02b0c2-2057-47c6-a3ff-cbf7db13165e.jpg?aki_policy=large"
+                        alt="" class="sleepimg">
+                    <p style="font-size: 16px;font-weight: 600;">Bedroom</p>
+                    <p style="font-size: 14px;">1 dople bed, 2 floor mattresses, En suite <br> bathroom, Step-free
+                        access</p>
+                </div>
+                <hr>
+                <div class="facilities">
+                    <p style="font-size: 22px;font-weight: 600;">What this place offers</p>
+                    <div class="amenities">
+                        <div class="elements">
+                            <span><img src="flower.png" alt="" class="icon1"> Garden view</span>
+
+                        </div>
+                        <div class="elements">
+                            <span><img src="mountain.png" alt="" class="icon1"> Mountain view</span>
+
+                        </div>
+                        <div class="elements">
+                            <span><img src="utensil.png" alt="" class="icon1"> Kitchen</span>
+
+                        </div>
+                        <div class="elements">
+                            <span><img src="wifi.png" alt="" class="icon1"> Wifi</span>
+
+                        </div>
+                        <div class="elements">
+                            <span><img src="car.png" alt="" class="icon1"> Free parking on premises</span>
+
+                        </div>
+                        <div class="elements">
+                            <span><img src="paw.png" alt="" class="icon1"> Pets allowed</span>
+
+                        </div>
+                        <div class="elements">
+                            <span><img src="tv-monitor.png" alt="" class="icon1"> TV with standard
+                                cable/satellite</span>
+
+                        </div>
+                        <div class="elements">
+                            <span><img src="balcony.png" alt="" class="icon1"> Patio or balcony</span>
+
+                        </div>
+                        <div class="elements">
+                            <span><img src="fire-alarm.png" alt="" class="icon1"><strike> Carbon monoxide alarm</strike>
+                            </span>
+
+                        </div>
+                        <div class="elements">
+                            <span><img src="fire-alarm.png" alt="" class="icon1"><strike> Smoke alarm</strike></span>
+
+                        </div>
+                    </div>
+                    <div>
+                        <button class="button3"><u>Show all 45 amenities</u></button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+
+            <div class="sticky">
+
+                <div class="firstpart">
+                    <div class="first">
+                        <div class="price">
+                            <span style="font-size: 22px;font-weight: 600;">&#8377 1061</span><span
+                                style="font-size: 16px;"> /night</span>
+                        </div>
+                        <div class="rating">
+                            <i class="bi bi-star-fill starred"></i> <b>5.0</b><u>(71 reviews)</u>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="sub1">
+                            <div class="checkin">
+                                <b style="font-size:10px;">CHECK IN</b> <br>
+                                <span style="font-size:16px;color: rgb(113, 113, 113);"> Add date</span>
+                            </div>
+                            <div class="checkout">
+                                <b style="font-size:10px;">CHECK OUT</b> <br>
+                                <span style="font-size:16px;color: rgb(113, 113, 113);"> Add date</span>
+                            </div>
+                        </div>
+                        <div class="sub2">
+                            <b style="font-size:10px;">GUESTS</b> <br> <span
+                                style="font-size:16px;color: rgb(113, 113, 113);">1 guest</span>
+
+                        </div>
+                    </div>
+                    <div class="third">
+                        <button type="button" class="btn btn-danger" style="width: 100%;">Check availabilty</button>
+                    </div>
+
+                </div>
+                <div class="secondpart">
+                    <span><img src="flag.png" class="icon2"></span>
+                    <span><u>Report this listing</u></span>
+                </div>
+
+
             </div>
         </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>Angular 4</li>
-            <li>ReactJS</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 YOUR NAME
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
 </body>
 
 </html>
